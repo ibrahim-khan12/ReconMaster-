@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "domain": "github.com",
+    "timestamp": "2026-01-19T13:46:03.864496",
+    "tool": "ReconMaster",
+    "version": "1.0.0"
+  },
+  "results": {
+    "whois": {
+      "domain": "github.com",
+      "timestamp": "2026-01-19T13:45:49.022642",
+      "success": false,
+      "data": {},
+      "error": "list index out of range"
+    },
+    "dns": {
+      "domain": "github.com",
+      "timestamp": "2026-01-19T13:45:50.146740",
+      "dns_server": "8.8.8.8",
+      "success": true,
+      "records": {
+        "A": [
+          "20.207.73.82"
+        ],
+        "AAAA": [
+          "Primary NS: dns1.p08.nsone.net"
+        ],
+        "MX": [
+          "5 alt1.aspmx.l.google.com"
+        ],
+        "NS": [
+          "ns-421.awsdns-52.com"
+        ],
+        "CNAME": [
+          "Primary NS: dns1.p08.nsone.net"
+        ],
+        "SOA": [
+          "Primary NS: dns1.p08.nsone.net"
+        ]
+      },
+      "ip_addresses": [
+        "Primary NS: dns1.p08.nsone.net",
+        "20.207.73.82"
+      ],
+      "error": null
+    },
+    "subdomains": {
+      "domain": "github.com",
+      "timestamp": "2026-01-19T13:45:50.648899",
+      "success": true,
+      "sources_used": [
+        "crtsh",
+        "alienvault",
+        "hackertarget"
+      ],
+      "subdomains": [
+        "admin.github.com",
+        "api.github.com",
+        "api.mcp.github.com",
+        "api.security.github.com",
+        "api.stars.github.com",
+        "asset-generator.github.com",
+        "atom-installer.github.com",
+        "autodiscover.github.com",
+        "blog.github.com",
+        "branch.github.com",
+        "brandguide.github.com",
+        "bug-bash.github.com",
+        "camo.github.com",
+        "central.github.com",
+        "cla.github.com",
+        "classroom.github.com",
+        "cloud.github.com",
+        "codespaces-dev.github.com",
+        "codespaces-ppe.github.com",
+        "codespaces.github.com",
+        "communication.github.com",
+        "community.github.com",
+        "docs-front-door.github.com",
+        "docs.github.com",
+        "dodgeball.github.com",
+        "ducky.github.com",
+        "edu.github.com",
+        "education.github.com",
+        "emails.github.com",
+        "enterprise.github.com",
+        "examadmin-uat.github.com",
+        "examadmin.github.com",
+        "examregistration-api.github.com",
+        "examregistration-uat-api.github.com",
+        "examregistration-uat.github.com",
+        "examregistration.github.com",
+        "f.cloud.github.com",
+        "fast.github.com",
+        "garage.github.com",
+        "gist.github.com",
+        "github.com",
+        "github.github.com",
+        "graphql-stage.github.com",
+        "graphql.github.com",
+        "help.github.com",
+        "helpnext.github.com",
+        "hq.github.com",
+        "id.github.com",
+        "import.github.com",
+        "import2.github.com",
+        "importer2.github.com",
+        "jira.github.com",
+        "jobs.github.com",
+        "lab-sandbox.github.com",
+        "lab.github.com",
+        "learn.github.com",
+        "m.communication.github.com",
+        "mac-installer.github.com",
+        "mailing.github.com",
+        "maintainers.github.com",
+        "mona-arcade.github.com",
+        "ns1.github.com",
+        "ns2.github.com",
+        "octocaptcha.review-lab.github.com",
+        "octostatus-production.github.com",
+        "offer.github.com",
+        "partnerportal.github.com",
+        "pkg.github.com",
+        "porter.github.com",
+        "porter2.github.com",
+        "proxima-review-lab.github.com",
+        "raw.github.com",
+        "registry.github.com",
+        "render-lab.github.com",
+        "render.github.com",
+        "res.communication.github.com",
+        "review-lab.github.com",
+        "rs.github.com",
+        "schrauger.github.com",
+        "shop.github.com",
+        "skyline.github.com",
+        "slack.github.com",
+        "smtp.github.com",
+        "ssh.github.com",
+        "staging-lab.github.com",
+        "status.github.com",
+        "stg.github.com",
+        "styleguide.github.com",
+        "support.enterprise.github.com",
+        "support.github.com",
+        "support@github.com",
+        "t.communication.github.com",
+        "talks.github.com",
+        "test.github.com",
+        "visualstudio.github.com",
+        "vpn-ca.iad.github.com",
+        "vscode-auth.github.com",
+        "wiki.github.com",
+        "workspaces-dev.github.com",
+        "workspaces-ppe.github.com",
+        "workspaces.github.com",
+        "ws.support.github.com",
+        "www.api.security.github.com",
+        "www.api.stars.github.com",
+        "www.communication.github.com",
+        "www.github.com",
+        "www.graphql-stage.github.com",
+        "www.graphql.github.com",
+        "www.jira.github.com",
+        "www.maintainers.github.com",
+        "www.partnerportal.github.com",
+        "www.render-lab.github.com",
+        "www.skyline.github.com",
+        "www.smtp.github.com",
+        "www.support.enterprise.github.com",
+        "www.visualstudio.github.com",
+        "www.ws.support.github.com"
+      ],
+      "resolved": {
+        "shop.github.com": [
+          "20.207.73.82"
+        ],
+        "test.github.com": [
+          "192.0.2.1"
+        ],
+        "docs.github.com": [
+          "185.199.108.154",
+          "185.199.110.154",
+          "185.199.111.154",
+          "185.199.109.154"
+        ],
+        "api.mcp.github.com": [
+          "140.82.112.22"
+        ],
+        "github.com": [
+          "20.207.73.82"
+        ],
+        "examregistration-uat.github.com": [
+          "140.82.114.18"
+        ],
+        "classroom.github.com": [
+          "140.82.112.22"
+        ],
+        "slack.github.com": [
+          "140.82.112.22"
+        ],
+        "octocaptcha.review-lab.github.com": [
+          "140.82.112.15",
+          "140.82.113.15",
+          "140.82.113.16",
+          "140.82.112.16",
+          "140.82.114.16",
+          "140.82.114.15"
+        ],
+        "status.github.com": [
+          "140.82.114.18"
+        ],
+        "autodiscover.github.com": [
+          "140.82.114.18"
+        ],
+        "github.github.com": [
+          "185.199.108.153",
+          "185.199.110.153",
+          "185.199.109.153",
+          "185.199.111.153"
+        ],
+        "api.security.github.com": [
+          "140.82.112.22"
+        ],
+        "edu.github.com": [
+          "140.82.112.22"
+        ],
+        "ssh.github.com": [
+          "20.207.73.83"
+        ],
+        "api.github.com": [
+          "20.207.73.85"
+        ],
+        "asset-generator.github.com": [
+          "185.199.108.153",
+          "185.199.109.153",
+          "185.199.111.153",
+          "185.199.110.153"
+        ],
+        "render.github.com": [
+          "20.207.73.82"
+        ],
+        "skyline.github.com": [
+          "185.199.109.153",
+          "185.199.111.153",
+          "185.199.110.153",
+          "185.199.108.153"
+        ],
+        "learn.github.com": [
+          "140.82.112.22"
+        ],
+        "enterprise.github.com": [
+          "140.82.112.22"
+        ],
+        "community.github.com": [
+          "140.82.114.18"
+        ],
+        "ns2.github.com": [
+          "192.0.2.2"
+        ],
+        "blog.github.com": [
+          "185.199.111.153",
+          "185.199.110.153",
+          "185.199.108.153",
+          "185.199.109.153"
+        ],
+        "vscode-auth.github.com": [
+          "185.199.111.153",
+          "185.199.110.153",
+          "185.199.108.153",
+          "185.199.109.153"
+        ],
+        "education.github.com": [
+          "140.82.112.22"
+        ],
+        "central.github.com": [
+          "140.82.112.22"
+        ],
+        "visualstudio.github.com": [
+          "140.82.114.18"
+        ],
+        "ducky.github.com": [
+          "185.199.111.153",
+          "185.199.108.153",
+          "185.199.110.153",
+          "185.199.109.153"
+        ],
+        "raw.github.com": [
+          "185.199.110.133",
+          "185.199.108.133",
+          "185.199.111.133",
+          "185.199.109.133"
+        ],
+        "styleguide.github.com": [
+          "140.82.114.18"
+        ],
+        "garage.github.com": [
+          "140.82.112.41",
+          "140.82.112.42"
+        ],
+        "vpn-ca.iad.github.com": [
+          "185.199.110.153",
+          "185.199.108.153",
+          "185.199.109.153",
+          "185.199.111.153"
+        ],
+        "communication.github.com": [
+          "192.243.228.1"
+        ],
+        "support.enterprise.github.com": [
+          "140.82.114.18"
+        ],
+        "help.github.com": [
+          "140.82.114.18"
+        ],
+        "gist.github.com": [
+          "20.207.73.82"
+        ],
+        "res.communication.github.com": [
+          "52.251.114.96"
+        ],
+        "www.github.com": [
+          "20.207.73.82"
+        ],
+        "maintainers.github.com": [
+          "140.82.112.22"
+        ],
+        "examregistration.github.com": [
+          "140.82.114.18"
+        ],
+        "support.github.com": [
+          "185.199.108.133",
+          "185.199.111.133",
+          "185.199.110.133",
+          "185.199.109.133"
+        ],
+        "brandguide.github.com": [
+          "185.199.108.153",
+          "185.199.110.153",
+          "185.199.109.153",
+          "185.199.111.153"
+        ],
+        "wiki.github.com": [
+          "140.82.114.17"
+        ],
+        "pkg.github.com": [
+          "20.207.73.86"
+        ],
+        "smtp.github.com": [
+          "140.82.113.31",
+          "140.82.114.31",
+          "140.82.112.32",
+          "140.82.113.32",
+          "140.82.112.31",
+          "140.82.114.32"
+        ],
+        "atom-installer.github.com": [
+          "185.199.108.133",
+          "185.199.110.133",
+          "185.199.111.133",
+          "185.199.109.133"
+        ],
+        "emails.github.com": [
+          "104.17.74.206",
+          "104.17.73.206",
+          "104.17.71.206",
+          "104.17.72.206",
+          "104.17.70.206"
+        ],
+        "mailing.github.com": [
+          "185.199.111.105",
+          "185.199.109.105",
+          "185.199.108.105",
+          "185.199.110.105"
+        ],
+        "admin.github.com": [
+          "140.82.113.23"
+        ],
+        "t.communication.github.com": [
+          "52.251.114.96"
+        ],
+        "m.communication.github.com": [
+          "52.251.114.96"
+        ],
+        "ns1.github.com": [
+          "192.0.2.1"
+        ],
+        "f.cloud.github.com": [
+          "151.101.66.217",
+          "151.101.130.217",
+          "151.101.2.217",
+          "151.101.194.217"
+        ],
+        "bug-bash.github.com": [
+          "185.199.111.153",
+          "185.199.110.153",
+          "185.199.108.153",
+          "185.199.109.153"
+        ],
+        "ws.support.github.com": [
+          "140.82.114.21",
+          "140.82.112.22",
+          "140.82.112.21",
+          "140.82.113.22",
+          "140.82.114.22",
+          "140.82.113.21"
+        ],
+        "mona-arcade.github.com": [
+          "185.199.110.153",
+          "185.199.108.153",
+          "185.199.109.153",
+          "185.199.111.153"
+        ],
+        "examadmin.github.com": [
+          "20.118.56.3"
+        ],
+        "examadmin-uat.github.com": [
+          "20.118.56.3"
+        ],
+        "examregistration-api.github.com": [
+          "20.118.56.3"
+        ],
+        "examregistration-uat-api.github.com": [
+          "20.118.56.3"
+        ]
+      },
+      "total_found": 117,
+      "error": null
+    },
+    "technologies": {
+      "target": "github.com",
+      "timestamp": "2026-01-19T13:46:02.639724",
+      "success": true,
+      "https_available": true,
+      "server": "github.com",
+      "technologies": [
+        "Amazon Web Services",
+        "Ember.js",
+        "Microsoft Azure",
+        "React",
+        "Shopify"
+      ],
+      "security_headers": {
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+        "Content-Security-Policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com edge.fullstory.com rs.fullstory.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com www.youtube-nocookie.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com marketplace-screenshots.githubusercontent.com/ copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com images.ctfassets.net/8aevphvgewt8/; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com assets.ctfassets.net/8aevphvgewt8/ videos.ctfassets.net/8aevphvgewt8/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "deny",
+        "X-XSS-Protection": "0",
+        "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin"
+      },
+      "security_score": 100,
+      "ssl_info": {
+        "subject": {
+          "commonName": "github.com"
+        },
+        "issuer": {
+          "countryName": "GB",
+          "organizationName": "Sectigo Limited",
+          "commonName": "Sectigo Public Server Authentication CA DV E36"
+        },
+        "version": 3,
+        "notBefore": "Jan  6 00:00:00 2026 GMT",
+        "notAfter": "Apr  5 23:59:59 2026 GMT",
+        "serialNumber": "02765689FEE52F85C4C8A47650E84BBE",
+        "subjectAltName": [
+          [
+            "DNS",
+            "github.com"
+          ],
+          [
+            "DNS",
+            "www.github.com"
+          ]
+        ]
+      },
+      "error": null
+    }
+  }
+}

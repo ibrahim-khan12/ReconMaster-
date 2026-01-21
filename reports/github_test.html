@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance Report - github.com</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .report-meta {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .report-meta p {
+            margin: 5px 0;
+        }
+        
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .data-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .data-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .data-list li:before {
+            content: "▹ ";
+            color: #3498db;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin: 3px;
+        }
+        
+        .tag.warning {
+            background-color: #e74c3c;
+        }
+        
+        .tag.success {
+            background-color: #27ae60;
+        }
+        
+        .empty-section {
+            color: #999;
+            font-style: italic;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #999;
+        }
+        
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .security-score {
+            display: inline-block;
+            font-size: 2em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+        
+        .score-high {
+            background-color: #27ae60;
+            color: white;
+        }
+        
+        .score-medium {
+            background-color: #f39c12;
+            color: white;
+        }
+        
+        .score-low {
+            background-color: #e74c3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reconnaissance Report</h1>
+            <div class="report-meta">
+                <p><strong>Target Domain:</strong> github.com</p>
+                <p><strong>Report Generated:</strong> 2026-01-19 13:46:03</p>
+                <p><strong>Report Type:</strong> Comprehensive Reconnaissance Assessment</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>WHOIS Information</h2>
+            <div class="empty-section">WHOIS lookup failed: list index out of range</div>
+        </section>
+
+        <section class="section">
+            <h2>DNS Enumeration</h2>
+            <h3>IP Addresses</h3>
+            <div class="highlight">Primary NS: dns1.p08.nsone.net, 20.207.73.82</div>
+            <h3>A Records</h3>
+            <ul class="data-list">
+                <li>20.207.73.82</li>
+            </ul>
+            <h3>AAAA Records</h3>
+            <ul class="data-list">
+                <li>Primary NS: dns1.p08.nsone.net</li>
+            </ul>
+            <h3>MX Records</h3>
+            <ul class="data-list">
+                <li>5 alt1.aspmx.l.google.com</li>
+            </ul>
+            <h3>NS Records</h3>
+            <ul class="data-list">
+                <li>ns-421.awsdns-52.com</li>
+            </ul>
+            <h3>CNAME Records</h3>
+            <ul class="data-list">
+                <li>Primary NS: dns1.p08.nsone.net</li>
+            </ul>
+            <h3>SOA Records</h3>
+            <ul class="data-list">
+                <li>Primary NS: dns1.p08.nsone.net</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Subdomain Enumeration</h2>
+            <p>Total subdomains found: <span class="tag">117</span></p>
+            <h3>Discovered Subdomains</h3>
+            <ul class="data-list">
+                <li>admin.github.com → 140.82.113.23</li>
+                <li>api.github.com → 20.207.73.85</li>
+                <li>api.mcp.github.com → 140.82.112.22</li>
+                <li>api.security.github.com → 140.82.112.22</li>
+                <li>api.stars.github.com</li>
+                <li>asset-generator.github.com → 185.199.108.153, 185.199.109.153, 185.199.111.153, 185.199.110.153</li>
+                <li>atom-installer.github.com → 185.199.108.133, 185.199.110.133, 185.199.111.133, 185.199.109.133</li>
+                <li>autodiscover.github.com → 140.82.114.18</li>
+                <li>blog.github.com → 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153</li>
+                <li>branch.github.com</li>
+                <li>brandguide.github.com → 185.199.108.153, 185.199.110.153, 185.199.109.153, 185.199.111.153</li>
+                <li>bug-bash.github.com → 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153</li>
+                <li>camo.github.com</li>
+                <li>central.github.com → 140.82.112.22</li>
+                <li>cla.github.com</li>
+                <li>classroom.github.com → 140.82.112.22</li>
+                <li>cloud.github.com</li>
+                <li>codespaces-dev.github.com</li>
+                <li>codespaces-ppe.github.com</li>
+                <li>codespaces.github.com</li>
+                <li>communication.github.com → 192.243.228.1</li>
+                <li>community.github.com → 140.82.114.18</li>
+                <li>docs-front-door.github.com</li>
+                <li>docs.github.com → 185.199.108.154, 185.199.110.154, 185.199.111.154, 185.199.109.154</li>
+                <li>dodgeball.github.com</li>
+                <li>ducky.github.com → 185.199.111.153, 185.199.108.153, 185.199.110.153, 185.199.109.153</li>
+                <li>edu.github.com → 140.82.112.22</li>
+                <li>education.github.com → 140.82.112.22</li>
+                <li>emails.github.com → 104.17.74.206, 104.17.73.206, 104.17.71.206, 104.17.72.206, 104.17.70.206</li>
+                <li>enterprise.github.com → 140.82.112.22</li>
+                <li>examadmin-uat.github.com → 20.118.56.3</li>
+                <li>examadmin.github.com → 20.118.56.3</li>
+                <li>examregistration-api.github.com → 20.118.56.3</li>
+                <li>examregistration-uat-api.github.com → 20.118.56.3</li>
+                <li>examregistration-uat.github.com → 140.82.114.18</li>
+                <li>examregistration.github.com → 140.82.114.18</li>
+                <li>f.cloud.github.com → 151.101.66.217, 151.101.130.217, 151.101.2.217, 151.101.194.217</li>
+                <li>fast.github.com</li>
+                <li>garage.github.com → 140.82.112.41, 140.82.112.42</li>
+                <li>gist.github.com → 20.207.73.82</li>
+                <li>github.com → 20.207.73.82</li>
+                <li>github.github.com → 185.199.108.153, 185.199.110.153, 185.199.109.153, 185.199.111.153</li>
+                <li>graphql-stage.github.com</li>
+                <li>graphql.github.com</li>
+                <li>help.github.com → 140.82.114.18</li>
+                <li>helpnext.github.com</li>
+                <li>hq.github.com</li>
+                <li>id.github.com</li>
+                <li>import.github.com</li>
+                <li>import2.github.com</li>
+                <li>importer2.github.com</li>
+                <li>jira.github.com</li>
+                <li>jobs.github.com</li>
+                <li>lab-sandbox.github.com</li>
+                <li>lab.github.com</li>
+                <li>learn.github.com → 140.82.112.22</li>
+                <li>m.communication.github.com → 52.251.114.96</li>
+                <li>mac-installer.github.com</li>
+                <li>mailing.github.com → 185.199.111.105, 185.199.109.105, 185.199.108.105, 185.199.110.105</li>
+                <li>maintainers.github.com → 140.82.112.22</li>
+                <li>mona-arcade.github.com → 185.199.110.153, 185.199.108.153, 185.199.109.153, 185.199.111.153</li>
+                <li>ns1.github.com → 192.0.2.1</li>
+                <li>ns2.github.com → 192.0.2.2</li>
+                <li>octocaptcha.review-lab.github.com → 140.82.112.15, 140.82.113.15, 140.82.113.16, 140.82.112.16, 140.82.114.16, 140.82.114.15</li>
+                <li>octostatus-production.github.com</li>
+                <li>offer.github.com</li>
+                <li>partnerportal.github.com</li>
+                <li>pkg.github.com → 20.207.73.86</li>
+                <li>porter.github.com</li>
+                <li>porter2.github.com</li>
+                <li>proxima-review-lab.github.com</li>
+                <li>raw.github.com → 185.199.110.133, 185.199.108.133, 185.199.111.133, 185.199.109.133</li>
+                <li>registry.github.com</li>
+                <li>render-lab.github.com</li>
+                <li>render.github.com → 20.207.73.82</li>
+                <li>res.communication.github.com → 52.251.114.96</li>
+                <li>review-lab.github.com</li>
+                <li>rs.github.com</li>
+                <li>schrauger.github.com</li>
+                <li>shop.github.com → 20.207.73.82</li>
+                <li>skyline.github.com → 185.199.109.153, 185.199.111.153, 185.199.110.153, 185.199.108.153</li>
+                <li>slack.github.com → 140.82.112.22</li>
+                <li>smtp.github.com → 140.82.113.31, 140.82.114.31, 140.82.112.32, 140.82.113.32, 140.82.112.31, 140.82.114.32</li>
+                <li>ssh.github.com → 20.207.73.83</li>
+                <li>staging-lab.github.com</li>
+                <li>status.github.com → 140.82.114.18</li>
+                <li>stg.github.com</li>
+                <li>styleguide.github.com → 140.82.114.18</li>
+                <li>support.enterprise.github.com → 140.82.114.18</li>
+                <li>support.github.com → 185.199.108.133, 185.199.111.133, 185.199.110.133, 185.199.109.133</li>
+                <li>support@github.com</li>
+                <li>t.communication.github.com → 52.251.114.96</li>
+                <li>talks.github.com</li>
+                <li>test.github.com → 192.0.2.1</li>
+                <li>visualstudio.github.com → 140.82.114.18</li>
+                <li>vpn-ca.iad.github.com → 185.199.110.153, 185.199.108.153, 185.199.109.153, 185.199.111.153</li>
+                <li>vscode-auth.github.com → 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153</li>
+                <li>wiki.github.com → 140.82.114.17</li>
+                <li>workspaces-dev.github.com</li>
+                <li>workspaces-ppe.github.com</li>
+                <li><em>... and 17 more</em></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Technology Detection</h2>
+            <p><strong>Server:</strong> github.com</p>
+            <p><strong>HTTPS:</strong> ✓ Available</p>
+            <div class="security-score score-high">Security Score: 100/100</div>
+            <h3>Detected Technologies</h3>
+            <p>
+                <span class="tag">Amazon Web Services</span>
+                <span class="tag">Ember.js</span>
+                <span class="tag">Microsoft Azure</span>
+                <span class="tag">React</span>
+                <span class="tag">Shopify</span>
+            </p>
+            <h3>Security Headers</h3>
+            <table>
+                <tr>
+                    <th>Header</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Strict-Transport-Security</td>
+                    <td><code>max-age=31536000; includeSubdomains; preload</code></td>
+                </tr>
+                <tr>
+                    <td>Content-Security-Policy</td>
+                    <td><code>default-src &#x27;none&#x27;; base-uri &#x27;self&#x27;; child-src github.githubassets.com github.com/assets-cdn/worker/...</code></td>
+                </tr>
+                <tr>
+                    <td>X-Content-Type-Options</td>
+                    <td><code>nosniff</code></td>
+                </tr>
+                <tr>
+                    <td>X-Frame-Options</td>
+                    <td><code>deny</code></td>
+                </tr>
+                <tr>
+                    <td>X-XSS-Protection</td>
+                    <td><code>0</code></td>
+                </tr>
+                <tr>
+                    <td>Referrer-Policy</td>
+                    <td><code>origin-when-cross-origin, strict-origin-when-cross-origin</code></td>
+                </tr>
+            </table>
+        </section>
+
+        <footer>
+            <p>ReconMaster - Modular Reconnaissance Tool v1.0.0</p>
+            <p><em>This report is intended for authorized security testing only.</em></p>
+            <p>Generated on 2026-01-19 13:46:03</p>
+        </footer>
+    </div>
+</body>
+</html>

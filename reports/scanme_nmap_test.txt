@@ -1,0 +1,93 @@
+================================================================================
+RECONNAISSANCE REPORT
+================================================================================
+Target Domain: scanme.nmap.org
+Report Generated: 2026-01-19 13:45:37
+Tool: ReconMaster v1.0.0
+================================================================================
+
+WHOIS INFORMATION
+--------------------------------------------------------------------------------
+Registrar: None
+Creation Date: None
+Expiration Date: None
+Updated Date: None
+
+DNS ENUMERATION
+--------------------------------------------------------------------------------
+IP Addresses: 45.33.32.156, 2600:3c01:0000:0000:f03c:91ff:fe18:bb2f
+
+A Records:
+  45.33.32.156
+
+AAAA Records:
+  2600:3c01:0000:0000:f03c:91ff:fe18:bb2f
+
+MX Records:
+  Primary NS: ns1.linode.com
+
+TXT Records:
+  Primary NS: ns1.linode.com
+
+NS Records:
+  Primary NS: ns1.linode.com
+
+CNAME Records:
+  Primary NS: ns1.linode.com
+
+SOA Records:
+  Primary NS: ns1.linode.com
+
+SUBDOMAIN ENUMERATION
+--------------------------------------------------------------------------------
+Total Subdomains Found: 0
+Sources Used: crtsh, alienvault, hackertarget
+
+Subdomains:
+
+PORT SCANNING
+--------------------------------------------------------------------------------
+Target IP: 45.33.32.156
+Scan Type: extended
+Total Ports Scanned: 94
+Open Ports: 4
+
+Open Ports:
+  22/tcp  open  ssh
+  80/tcp  open  http
+  2000/tcp  open  unknown
+  5060/tcp  open  unknown
+
+BANNER GRABBING
+--------------------------------------------------------------------------------
+Services Identified: 2
+
+Port 22/ssh:
+  SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+
+Port 80/http:
+  HTTP/1.1 200 OK
+Date: Mon, 19 Jan 2026 08:45:27 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+TECHNOLOGY DETECTION
+--------------------------------------------------------------------------------
+Server: Apache/2.4.7 (Ubuntu)
+HTTPS: Not Available
+Security Score: 0/100
+
+Detected Technologies:
+  • Apache
+  • Google Analytics
+
+================================================================================
+END OF REPORT
+================================================================================
+Report generated on 2026-01-19 13:45:37
+ReconMaster - Modular Reconnaissance Tool v1.0.0
+For authorized security testing only.

@@ -1,0 +1,119 @@
+================================================================================
+RECONNAISSANCE REPORT
+================================================================================
+Target Domain: github.com
+Report Generated: 2026-01-19 13:46:03
+Tool: ReconMaster v1.0.0
+================================================================================
+
+WHOIS INFORMATION
+--------------------------------------------------------------------------------
+Error: list index out of range
+
+DNS ENUMERATION
+--------------------------------------------------------------------------------
+IP Addresses: Primary NS: dns1.p08.nsone.net, 20.207.73.82
+
+A Records:
+  20.207.73.82
+
+AAAA Records:
+  Primary NS: dns1.p08.nsone.net
+
+MX Records:
+  5 alt1.aspmx.l.google.com
+
+NS Records:
+  ns-421.awsdns-52.com
+
+CNAME Records:
+  Primary NS: dns1.p08.nsone.net
+
+SOA Records:
+  Primary NS: dns1.p08.nsone.net
+
+SUBDOMAIN ENUMERATION
+--------------------------------------------------------------------------------
+Total Subdomains Found: 117
+Sources Used: crtsh, alienvault, hackertarget
+
+Subdomains:
+  admin.github.com → 140.82.113.23
+  api.github.com → 20.207.73.85
+  api.mcp.github.com → 140.82.112.22
+  api.security.github.com → 140.82.112.22
+  api.stars.github.com
+  asset-generator.github.com → 185.199.108.153, 185.199.109.153, 185.199.111.153, 185.199.110.153
+  atom-installer.github.com → 185.199.108.133, 185.199.110.133, 185.199.111.133, 185.199.109.133
+  autodiscover.github.com → 140.82.114.18
+  blog.github.com → 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153
+  branch.github.com
+  brandguide.github.com → 185.199.108.153, 185.199.110.153, 185.199.109.153, 185.199.111.153
+  bug-bash.github.com → 185.199.111.153, 185.199.110.153, 185.199.108.153, 185.199.109.153
+  camo.github.com
+  central.github.com → 140.82.112.22
+  cla.github.com
+  classroom.github.com → 140.82.112.22
+  cloud.github.com
+  codespaces-dev.github.com
+  codespaces-ppe.github.com
+  codespaces.github.com
+  communication.github.com → 192.243.228.1
+  community.github.com → 140.82.114.18
+  docs-front-door.github.com
+  docs.github.com → 185.199.108.154, 185.199.110.154, 185.199.111.154, 185.199.109.154
+  dodgeball.github.com
+  ducky.github.com → 185.199.111.153, 185.199.108.153, 185.199.110.153, 185.199.109.153
+  edu.github.com → 140.82.112.22
+  education.github.com → 140.82.112.22
+  emails.github.com → 104.17.74.206, 104.17.73.206, 104.17.71.206, 104.17.72.206, 104.17.70.206
+  enterprise.github.com → 140.82.112.22
+  examadmin-uat.github.com → 20.118.56.3
+  examadmin.github.com → 20.118.56.3
+  examregistration-api.github.com → 20.118.56.3
+  examregistration-uat-api.github.com → 20.118.56.3
+  examregistration-uat.github.com → 140.82.114.18
+  examregistration.github.com → 140.82.114.18
+  f.cloud.github.com → 151.101.66.217, 151.101.130.217, 151.101.2.217, 151.101.194.217
+  fast.github.com
+  garage.github.com → 140.82.112.41, 140.82.112.42
+  gist.github.com → 20.207.73.82
+  github.com → 20.207.73.82
+  github.github.com → 185.199.108.153, 185.199.110.153, 185.199.109.153, 185.199.111.153
+  graphql-stage.github.com
+  graphql.github.com
+  help.github.com → 140.82.114.18
+  helpnext.github.com
+  hq.github.com
+  id.github.com
+  import.github.com
+  import2.github.com
+  ... and 67 more
+
+TECHNOLOGY DETECTION
+--------------------------------------------------------------------------------
+Server: github.com
+HTTPS: Available
+Security Score: 100/100
+
+Detected Technologies:
+  • Amazon Web Services
+  • Ember.js
+  • Microsoft Azure
+  • React
+  • Shopify
+
+Security Headers:
+  Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+  Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: deny
+  X-XSS-Protection: 0
+  Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+
+================================================================================
+END OF REPORT
+================================================================================
+Report generated on 2026-01-19 13:46:03
+ReconMaster - Modular Reconnaissance Tool v1.0.0
+For authorized security testing only.

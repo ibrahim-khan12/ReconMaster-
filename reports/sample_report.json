@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "domain": "example.com",
+    "timestamp": "2026-01-19T13:40:52.528121",
+    "tool": "ReconMaster",
+    "version": "1.0.0"
+  },
+  "results": {
+    "whois": {
+      "domain": "example.com",
+      "timestamp": "2026-01-19T13:40:35.466972",
+      "success": true,
+      "data": {
+        "raw": "% IANA WHOIS server\n% for more information on IANA, visit http://www.iana.org\n% This query returned 1 object\n\ndomain:       EXAMPLE.COM\n\norganisation: Internet Assigned Numbers Authority\n\ncreated:      1992-01-01\nsource:       IANA\n\n",
+        "registrar": null,
+        "creation_date": "1992-01-01",
+        "expiration_date": null,
+        "updated_date": null,
+        "name_servers": [],
+        "status": [],
+        "registrant": {},
+        "admin_contact": {},
+        "tech_contact": {}
+      },
+      "error": null
+    },
+    "dns": {
+      "domain": "example.com",
+      "timestamp": "2026-01-19T13:40:36.689711",
+      "dns_server": "8.8.8.8",
+      "success": true,
+      "records": {
+        "A": [
+          "104.18.26.120"
+        ],
+        "AAAA": [
+          "2606:4700:0000:0000:0000:0000:6812:1a78"
+        ],
+        "MX": [
+          "0 "
+        ],
+        "TXT": [
+          "_k2n1y4vw3qtb4skdx9e7dxt97qrmmq9"
+        ],
+        "NS": [
+          "elliott.ns.cloudflare.com"
+        ],
+        "CNAME": [
+          "Primary NS: elliott.ns.cloudflare.com"
+        ],
+        "SOA": [
+          "Primary NS: elliott.ns.cloudflare.com"
+        ]
+      },
+      "ip_addresses": [
+        "2606:4700:0000:0000:0000:0000:6812:1a78",
+        "104.18.26.120"
+      ],
+      "error": null
+    },
+    "subdomains": {
+      "domain": "example.com",
+      "timestamp": "2026-01-19T13:40:37.513643",
+      "success": true,
+      "sources_used": [
+        "crtsh",
+        "alienvault",
+        "hackertarget"
+      ],
+      "subdomains": [
+        "as207960 test intermediate - example.com",
+        "dev.example.com",
+        "example.com",
+        "m.example.com",
+        "m.testexample.com",
+        "products.example.com",
+        "subjectname@example.com",
+        "support.example.com",
+        "user@example.com",
+        "www.example.com"
+      ],
+      "resolved": {
+        "www.example.com": [
+          "104.18.27.120",
+          "104.18.26.120"
+        ],
+        "example.com": [
+          "104.18.27.120",
+          "104.18.26.120"
+        ],
+        "m.testexample.com": [
+          "13.248.169.48",
+          "76.223.54.146"
+        ]
+      },
+      "total_found": 10,
+      "error": null
+    },
+    "ports": {
+      "target": "example.com",
+      "target_ip": "104.18.27.120",
+      "timestamp": "2026-01-19T13:40:45.027263",
+      "scan_type": "extended",
+      "success": true,
+      "open_ports": [
+        {
+          "port": 80,
+          "state": "open",
+          "service": "http"
+        },
+        {
+          "port": 443,
+          "state": "open",
+          "service": "https"
+        },
+        {
+          "port": 2000,
+          "state": "open",
+          "service": "unknown"
+        },
+        {
+          "port": 5060,
+          "state": "open",
+          "service": "unknown"
+        },
+        {
+          "port": 8080,
+          "state": "open",
+          "service": "http-proxy"
+        },
+        {
+          "port": 8443,
+          "state": "open",
+          "service": "https-alt"
+        }
+      ],
+      "closed_ports_count": 88,
+      "total_scanned": 94,
+      "error": null
+    },
+    "banners": {
+      "target": "example.com",
+      "target_ip": "104.18.27.120",
+      "timestamp": "2026-01-19T13:40:47.071863",
+      "success": true,
+      "banners": [
+        {
+          "port": 80,
+          "protocol": "http",
+          "banner": "HTTP/1.1 200 OK\r\nDate: Mon, 19 Jan 2026 08:40:47 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nCF-RAY: 9c05077f398c1493-ISB\r\nLast-Modified: Sun, 18 Jan 2026 05:13:53 GMT\r\nAllow: GET, HEAD\r\nAccept-Ranges: bytes\r\nAge: 12187\r\ncf-cache-status: HIT\r\nServer: cloudflare\r\n\r\n201\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>\n\r\n0",
+          "ssl_info": null,
+          "state": "open"
+        },
+        {
+          "port": 443,
+          "protocol": "https",
+          "banner": "[TLSv1.3] HTTP/1.1 200 OK\r\nDate: Mon, 19 Jan 2026 08:40:47 GMT\r\nContent-Type: text/html\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nCF-RAY: 9c05078018f690a7-KHI\r\nlast-modified: Sun, 18 Jan 2026 05:13:53 GMT\r\nallow: GET, HEAD\r\nAccept-Ranges: bytes\r\nAge: 9083\r\ncf-cache-status: HIT\r\nServer: cloudflare\r\n\r\n201\r\n<!doctype html><html lang=\"en\"><head><title>Example Domain</title><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href=\"https://iana.org/domains/example\">Learn more</a></div></body></html>\n\r\n0",
+          "ssl_info": null,
+          "state": "open"
+        }
+      ],
+      "services_identified": [
+        {
+          "port": 443,
+          "service": "TLS Service"
+        }
+      ],
+      "error": null
+    },
+    "technologies": {
+      "target": "example.com",
+      "timestamp": "2026-01-19T13:40:52.430207",
+      "success": true,
+      "https_available": true,
+      "server": "cloudflare",
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {},
+      "security_score": 40,
+      "ssl_info": {
+        "subject": {
+          "commonName": "example.com"
+        },
+        "issuer": {
+          "countryName": "US",
+          "organizationName": "SSL Corporation",
+          "commonName": "Cloudflare TLS Issuing ECC CA 3"
+        },
+        "version": 3,
+        "notBefore": "Dec 16 19:39:32 2025 GMT",
+        "notAfter": "Mar 16 18:32:44 2026 GMT",
+        "serialNumber": "1EDE98307EA0594823EA81BAF6154A67",
+        "subjectAltName": [
+          [
+            "DNS",
+            "example.com"
+          ],
+          [
+            "DNS",
+            "*.example.com"
+          ]
+        ]
+      },
+      "error": null
+    }
+  }
+}
